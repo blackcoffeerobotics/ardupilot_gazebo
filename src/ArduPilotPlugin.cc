@@ -188,7 +188,7 @@ class Control
   public: std::string type;
 
   /// \brief use force controler
-  public: bool useForce = true;
+  public: bool useForce = false;
 
   /// \brief Control propeller joint.
   public: std::string jointName;
